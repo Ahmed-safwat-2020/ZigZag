@@ -1,0 +1,39 @@
+.main{
+    background: url("../imgs/main.jpg") no-repeat center center;
+    background-size: cover;
+    .overlay{
+        background-color: rgba(255, 255, 255, 0.5);
+        .custimize{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .online{
+                padding-top: 200px;
+                margin-bottom: 200px;
+                img{
+                    width: 100%;
+                }
+                .dis{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    h1{
+                        width: 100%;
+                        font-size: 50px ;
+                    }
+                }
+            }
+            .other{
+                padding-bottom: 75px;
+                .lead{
+                    font-weight: 400;
+                }
+                .btn{
+                    border: 1px solid;
+                    padding: 2px 16px;
+                }
+            }
+        }
+    }
+}
