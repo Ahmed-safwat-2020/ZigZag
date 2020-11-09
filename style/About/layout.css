@@ -71,7 +71,9 @@
 .Vision .content .con P {
   font-size: 20PX;
 }
-
+.events{
+  background-color: #eee;
+}
 .events .PREVIOUS {
   background-color: #000;
   padding: 40px 0;
@@ -132,23 +134,23 @@
   margin-top: 25px;
 }
 
-.contact {
+.contact-about {
   margin-top: 50px;
   padding: 50px 0;
   background-color: #eee;
 }
 
-.contact h3 {
+.contact-about h3 {
   width: 100%;
 }
 
-.contact p {
+.contact-about p {
   width: 70%;
   margin: 0 auto 25px;
   color: #878787;
 }
 
-.contact .dis {
+.contact-about .dis {
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -161,19 +163,19 @@
           align-items: center;
 }
 
-.contact .addres {
+.contact-about .addres {
   display: block;
   margin-bottom: 40px;
 }
 
-.contact .addres p {
+.contact-about .addres p {
   position: relative;
   width: 55%;
   padding: 0px 0 0px 45px;
   font-weight: 700;
 }
 
-.contact .addres p::before {
+.contact-about .addres p::before {
   position: absolute;
   content: "\f015";
   font-family: "FontAwesome";
@@ -189,15 +191,15 @@
   left: 0px;
 }
 
-.contact .phone p::before {
+.contact-about .phone p::before {
   content: "\f095";
 }
 
-.contact .mobile p::before {
+.contact-about .mobile p::before {
   content: "\f10b ";
 }
 
-.contact .email p::before {
+.contact-about .email p::before {
   content: "\f0e0 ";
 }
 
@@ -266,136 +268,6 @@ form .messege textarea {
   height: 120px;
 }
 
-.copyright {
-  border-top: 2px solid #08526d;
-  padding: 10px;
-}
-
-.copyright p {
-  font-size: 20px;
-  margin-bottom: 0;
-}
-
-.footer {
-  background-color: #fff;
-  padding-top: 50px;
-  padding-bottom: 30px;
-}
-
-.footer .content {
-  margin-bottom: 20px;
-}
-
-.footer .content span {
-  color: #08526d;
-  font-weight: bold;
-  font-size: 30px;
-  margin-bottom: 25px;
-}
-
-.footer .content span:last-of-type {
-  color: #ec1c23;
-  font-weight: normal;
-}
-
-.footer .content p {
-  margin-top: 25px;
-}
-
-.footer .content a {
-  color: #686868;
-  font-size: 18px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.footer .links span {
-  color: #08526d;
-  font-size: 30px;
-}
-
-.footer .links i {
-  font-size: 10px;
-  color: #08526d;
-  font-weight: bold;
-}
-
-.footer .links ul {
-  margin-top: 15px;
-}
-
-.footer .links .help {
-  font-size: 20px;
-}
-
-.footer .info .col-md-12 ul {
-  margin-bottom: 0;
-  margin-top: 15px;
-}
-
-.footer .info .col-md-12 ul li {
-  padding-bottom: 0;
-  display: inline-block;
-  color: #686868;
-  margin: 0 10px 0 0;
-}
-
-.footer .info .col-md-12 ul li .fa-facebook {
-  color: #000;
-}
-
-.footer .info .col-md-12 ul li .fa-facebook:hover {
-  color: #3578E5;
-}
-
-.footer .info .col-md-12 ul li .fa-twitter {
-  color: #000;
-}
-
-.footer .info .col-md-12 ul li .fa-twitter:hover {
-  color: #1da1f2;
-}
-
-.footer .info .col-md-12 ul li .fa-youtube {
-  color: #000;
-}
-
-.footer .info .col-md-12 ul li .fa-youtube:hover {
-  color: #c4302b;
-}
-
-.footer .info .col-md-12 ul li .fa-google-plus {
-  color: #000;
-}
-
-.footer .info .col-md-12 ul li .fa-google-plus:hover {
-  color: #DD4B39;
-}
-
-.footer .info .col-md-12 ul li .fa-linkedin {
-  color: #000;
-}
-
-.footer .info .col-md-12 ul li .fa-linkedin:hover {
-  color: #0077B5;
-}
-
-.footer .info span {
-  color: #08526d;
-  font-size: 30px;
-}
-
-.footer .info li {
-  margin-bottom: 15px;
-}
-
-.footer .info ul {
-  margin-top: 25px;
-}
-
-.footer .col-xs-6 {
-  width: 50%;
-}
 
 @media (min-width: 320px) {
   .about .row .col-sm-12 .img img {

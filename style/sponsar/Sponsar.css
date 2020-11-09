@@ -1,0 +1,240 @@
+/*
+  Desgined By : Omar Gamal
+  Coded By : Ahmed Safwat
+*/
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+.body .content {
+  position: relative;
+  padding-bottom: 110px;
+}
+
+.body .content .imgs {
+  background: url("../../imgs/back.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 150px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.body .content .imgs img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 15px;
+}
+
+.body .container .titlte {
+  font-size: 27.5px;
+  font-weight: bold;
+}
+
+.about-spnsar {
+  text-align: left;
+  background-color: #f2f3f5;
+  margin-top: 50px;
+  padding: 50px 0;
+}
+
+.about-spnsar h1 {
+  font-size: 27.5px;
+  font-weight: bold;
+}
+
+.about-spnsar .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.about-spnsar .line hr {
+  width: 125px;
+  height: 2px;
+  background: #000;
+  margin: 0 0 10px 0;
+}
+
+.services-spnsar {
+  text-align: left;
+  padding: 50px 0;
+}
+
+.services-spnsar h1 {
+  font-size: 27.5px;
+  font-weight: bold;
+}
+
+.services-spnsar .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.services-spnsar .line hr {
+  width: 165px;
+  height: 2px;
+  background: #000;
+  margin: 0 0 50px 0;
+}
+
+.services-spnsar .card {
+  width: 100% !important;
+  margin-bottom: 20px;
+}
+
+.services-spnsar .card .card-body .card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.contact-spnsar {
+  text-align: left;
+  background-color: #f2f3f5;
+  padding: 50px 0;
+}
+
+.contact-spnsar h1 {
+  font-size: 27.5px;
+  font-weight: bold;
+}
+
+.contact-spnsar .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.contact-spnsar .line hr {
+  width: 210px;
+  height: 2px;
+  background: #000;
+  margin: 0 0 10px 0;
+}
+
+.contact-spnsar .info {
+  margin-top: 27.5px;
+  padding-left: 25px;
+}
+
+.contact-spnsar .info li {
+  font-size: 20px;
+}
+
+.contact-spnsar .info li a {
+  color: blue;
+}
+
+.contact-spnsar .social {
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+
+.contact-spnsar .social i {
+  font-size: 40px;
+}
+
+@media (min-width: 320px) {
+  .about-spnsar {
+    text-align: center;
+  }
+  .about-spnsar .line {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-spnsar {
+    text-align: left;
+  }
+  .about-spnsar .line {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+}
+
+@media (min-width: 320px) {
+  .services-spnsar {
+    text-align: center;
+  }
+  .services-spnsar .line {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .services-spnsar {
+    text-align: left;
+  }
+  .services-spnsar .line {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+}
+
+@media (min-width: 320px) {
+  .contact-spnsar {
+    text-align: center;
+  }
+  .contact-spnsar .line {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact-spnsar .info li {
+    list-style: none;
+  }
+  .contact-spnsar .social {
+    padding: 0 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-spnsar {
+    text-align: left;
+  }
+  .contact-spnsar .line {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+  .contact-spnsar .info li {
+    list-style: disc;
+  }
+  .contact-spnsar .social {
+    padding: 50px 0 0 0;
+  }
+}
+/*# sourceMappingURL=layout.css.map */
