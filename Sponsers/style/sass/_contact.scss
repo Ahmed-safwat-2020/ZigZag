@@ -1,0 +1,37 @@
+.contact{
+    text-align: left;
+    background-color: #f2f3f5;
+    padding: 50px 0;
+    h1{
+        font-size: 27.5px;
+        font-weight: bold;
+    }
+    .line{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        hr{
+            width: 210px;
+            height: 2px;
+            background: #000;
+            margin: 0 0 10px 0;
+        }
+    }
+    .info{
+        margin-top: 27.5px;
+        padding-left: 25px;
+        li{
+            font-size: 20px;
+            a{
+                color: blue;
+            }
+        }
+    }
+    .social{
+        text-align: center;
+        padding: 50px 0 0 0;
+        i{
+            font-size: 40px;
+        }
+    }
+}

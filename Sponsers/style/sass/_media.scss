@@ -1,0 +1,66 @@
+@media (min-width: 320px) {
+    .about{
+        text-align: center;
+        .line{
+            justify-content: center;
+        }
+    }
+  }
+  @media (min-width: 768px) {
+    .about{
+        text-align: left;
+        .line{
+            justify-content: left;
+        }
+    }
+  }
+  
+  @media (min-width: 320px) {
+    .services{
+        text-align: center;
+        .line{
+            justify-content: center;
+        }
+    }
+  }
+  @media (min-width: 768px) {
+    .services{
+        text-align: left;
+        .line{
+            justify-content: left;
+        }
+    }
+  }
+
+  @media (min-width: 320px) {
+    .contact{
+        text-align: center;
+        .line{
+            justify-content: center;
+        }
+        .info{
+            li{
+                list-style: none;
+            }
+        }
+        .social{
+            padding: 0 15px;
+        }
+    }
+  }
+  @media (min-width: 768px) {
+    .contact{
+        text-align: left;
+        .line{
+            justify-content: left;
+        }
+        .info{
+            li{
+                list-style: disc;
+            }
+        }
+        .social{
+            padding: 50px 0 0 0;
+        }
+    }
+  }

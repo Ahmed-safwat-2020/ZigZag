@@ -1,0 +1,115 @@
+.footer
+    {
+        background-color: #fff;
+        .content{
+            margin-bottom: 20px;
+            span
+            {
+                color: #08526d;
+                font-weight: bold;
+                font-size: 30px;
+                margin-bottom: 25px;
+                &:last-of-type
+                {
+                    color: #ec1c23;
+                    font-weight: normal;
+                }
+            }
+            p
+            {
+              margin-top: 25px;
+            }
+            a
+            {
+                color: #686868;
+                font-size: 18px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+        }
+        .links{
+            span
+            {
+                color: #08526d;
+                font-size: 30px;
+            }
+            i
+            {
+                font-size: 10px;
+                color: #08526d;
+                font-weight: bold;
+            }
+                ul
+            {
+                margin-top: 15px;
+            }
+            .help{
+                font-size: 20px;
+            }
+        }
+        .info{
+            .col-md-12{
+                ul
+    {
+        margin-bottom: 0;
+        margin-top: 15px;
+        li
+    {
+        padding-bottom: 0;
+        display: inline-block;
+        color: #686868;
+        margin:  0 10px 0 0;
+        .fa-facebook{
+            color: #000;
+           &:hover{
+               color:  #3578E5;
+           }
+        }
+        .fa-twitter{
+            color: #000;
+           &:hover{
+               color:  rgb(29, 161, 242);
+           }
+        }
+        .fa-youtube{
+            color: #000;
+           &:hover{
+               color:  rgb(196, 48, 43);
+           }
+        }
+        .fa-google-plus{
+            color: #000;
+           &:hover{
+               color:  #DD4B39;
+           }
+        }
+        .fa-linkedin{
+            color: #000;
+           &:hover{
+               color:  #0077B5
+           }
+        }
+    }
+}
+            }
+             span
+            {
+                color: #08526d;
+                font-size: 30px;
+               
+            }
+            li
+            {
+               margin-bottom: 15px;
+            }
+             ul
+            {
+                margin-top: 25px;
+            }
+        }
+        .col-xs-6{
+            width: 50%;
+        }
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }

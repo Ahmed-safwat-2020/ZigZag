@@ -1,0 +1,27 @@
+.body{
+    .content{
+        position: relative;
+        padding-bottom: 110px;
+        .imgs{
+            background: url("../../imgs/back.jpg") no-repeat center center;
+            background-size: cover;
+            padding: 150px 0;
+            display: flex;
+            justify-content: center;
+            img{
+                width: 200px;
+                height: 200px;
+                border: 5px solid #fff;
+                border-radius: 50%;
+                position: absolute;
+                bottom: 15px;
+            }
+        }
+    }
+    .container{
+        .titlte{
+            font-size: 27.5px;
+            font-weight: bold;
+        }
+    }
+}

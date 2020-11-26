@@ -1,0 +1,67 @@
+$smallmobile:"(min-width: 320px)";
+$normallmobile:"(min-width: 576px)";
+$mobile:"(min-width: 768px)";
+$mediumscreen:"(min-width: 992px)";
+$largscreen:"(min-width:1200px)";
+
+//About Us
+@media#{$smallmobile}{
+    .about {
+        .row{
+            .col-sm-12{
+                .img{
+                    img{
+                        height: auto;
+                    }
+                }
+            }
+        } 
+         }
+}
+@media#{$mediumscreen}{
+    .about {
+        .row{
+            .col-sm-12{
+                .img{
+                    img{
+                        height: 800px;
+                    }
+                }
+            }
+        } 
+         }
+}
+
+// Events
+
+@media#{$smallmobile}{
+    .events{
+        .PREVIOUS{
+            h3{
+                font-size: 30px;
+            }
+            .lead{
+                font-size: 20px;
+            }
+            p{
+                font-size: initial;
+            }
+        }
+    }
+}
+
+@media#{$mediumscreen}{
+    .events{
+        .PREVIOUS{
+            h3{
+                font-size: 40px;
+            }
+            .lead{
+                font-size: 25px;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+}

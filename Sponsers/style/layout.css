@@ -1,0 +1,239 @@
+/*
+  Desgined By : Omar Gamal
+  Coded By : Ahmed Safwat
+*/
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+.body .content {
+  position: relative;
+  padding-bottom: 110px;
+}
+
+.body .content .imgs {
+  background: url("../../imgs/back.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 150px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.body .content .imgs img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 15px;
+}
+
+.body .container .titlte {
+  font-size: 27.5px;
+  font-weight: bold;
+}
+
+.about {
+  text-align: left;
+  background-color: #f2f3f5;
+  margin-top: 50px;
+  padding: 50px 0;
+}
+
+.about h1 {
+  font-size: 27.5px;
+  font-weight: bold;
+}
+
+.about .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.about .line hr {
+  width: 125px;
+  height: 2px;
+  background: #000;
+  margin: 0 0 10px 0;
+}
+
+.services {
+  text-align: left;
+  padding: 50px 0;
+}
+
+.services h1 {
+  font-size: 27.5px;
+  font-weight: bold;
+}
+
+.services .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.services .line hr {
+  width: 165px;
+  height: 2px;
+  background: #000;
+  margin: 0 0 50px 0;
+}
+
+.services .card {
+  width: 100% !important;
+  margin-bottom: 20px;
+}
+
+.services .card .card-body .card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact {
+  text-align: left;
+  background-color: #f2f3f5;
+  padding: 50px 0;
+}
+
+.contact h1 {
+  font-size: 27.5px;
+  font-weight: bold;
+}
+
+.contact .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.contact .line hr {
+  width: 210px;
+  height: 2px;
+  background: #000;
+  margin: 0 0 10px 0;
+}
+
+.contact .info {
+  margin-top: 27.5px;
+  padding-left: 25px;
+}
+
+.contact .info li {
+  font-size: 20px;
+}
+
+.contact .info li a {
+  color: blue;
+}
+
+.contact .social {
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+
+.contact .social i {
+  font-size: 40px;
+}
+
+@media (min-width: 320px) {
+  .about {
+    text-align: center;
+  }
+  .about .line {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .about {
+    text-align: left;
+  }
+  .about .line {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+}
+
+@media (min-width: 320px) {
+  .services {
+    text-align: center;
+  }
+  .services .line {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .services {
+    text-align: left;
+  }
+  .services .line {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+}
+
+@media (min-width: 320px) {
+  .contact {
+    text-align: center;
+  }
+  .contact .line {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact .info li {
+    list-style: none;
+  }
+  .contact .social {
+    padding: 0 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact {
+    text-align: left;
+  }
+  .contact .line {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+  .contact .info li {
+    list-style: disc;
+  }
+  .contact .social {
+    padding: 50px 0 0 0;
+  }
+}
+/*# sourceMappingURL=layout.css.map */
